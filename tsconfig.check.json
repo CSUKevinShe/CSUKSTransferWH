@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig.json",
+  "include": [
+    "src/lib/data/resources.ts",
+    "src/app/resources/page.tsx",
+    "src/lib/utils.ts",
+    "src/components/layout/Breadcrumbs.tsx"
+  ],
+  "exclude": [
+    "node_modules",
+    ".next"
+  ]
+}
